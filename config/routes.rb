@@ -1,9 +1,8 @@
 Housing::Application.routes.draw do
 
+  resources :home
 
   root :to => "home#index"
-  
-  resources :home
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
