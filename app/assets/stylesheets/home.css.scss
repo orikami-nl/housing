@@ -1,0 +1,42 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+@font-face {
+    font-family: "Florencesans";
+    src: url(Florsn02.ttf);
+}
+
+body{
+	background-color: #e20612;
+}
+
+.home-column{
+	// height: 500px;
+	background-color: white;
+	padding: 10px;
+	h3{
+		border-bottom: 4px;
+		border-bottom: solid;
+		border-color: #e20612;
+		// font-family: "Florencesans";
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #e20612;
+	}
+}
+
+.row.logo{
+	height: 150px;
+	div.logo{
+		float: right;
+		background-image: url(logo.jpg);
+		width: 568px;
+		height: 222px;
+	}
+}
+.bottom-row{
+	margin-top: 20px;
+	height: 200px;
+}

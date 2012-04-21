@@ -5,10 +5,23 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+  		<script>(function(d, s, id) {
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) return;
+		 js = d.createElement(s); js.id = id;
+		 js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1&appId=265263630190170";
+		 fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
 </head>
 <body>
 
-<%= yield %>
+<%#= render 'layouts/navbar' %>
+
+<div class="container main">
+	<%= yield %>
+</div>
 
 </body>
 </html>
