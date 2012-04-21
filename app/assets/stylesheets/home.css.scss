@@ -16,7 +16,7 @@ body{
 	// height: 500px;
 	background-color: white;
 	padding: 10px;
-	h3{
+	h3, h2{
 		border-bottom: 4px;
 		border-bottom: solid;
 		border-color: #e20612;
@@ -24,6 +24,11 @@ body{
 		text-transform: uppercase;
 		font-weight: bold;
 		color: #e20612;
+	}
+
+	p{
+		margin-bottom: 50px;
+		font-size: 14px;
 	}
 }
 
