@@ -4,9 +4,18 @@
 @import "bootstrap";
 
 @font-face {
-    font-family: "Florencesans";
-    src: url(Florsn02.ttf);
+    font-family: "HitTheRoad";
+    src: url('hitroad-webfont.eot');
+    src: url('hitroad-webfont.eot?#iefix') format('embedded-opentype'),
+         url('hitroad-webfont.woff') format('woff'),
+         url('hitroad-webfont.ttf') format('truetype'),
+         url('hitroad-webfont.svg#NewRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
 
 body{
 	background-color: #e20612;
@@ -20,7 +29,7 @@ body{
 		border-bottom: 4px;
 		border-bottom: solid;
 		border-color: #e20612;
-		// font-family: "Florencesans";
+		font-family: "HitTheRoad";
 		text-transform: uppercase;
 		font-weight: bold;
 		color: #e20612;
